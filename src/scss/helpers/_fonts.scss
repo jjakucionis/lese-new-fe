@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Oswald';
+  @include fontSrc('Oswald-ExtraLight');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  @include fontSrc('Lora-Bold');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  @include fontSrc('Oswald-SemiBold');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  @include fontSrc('Lora-BoldItalic');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  @include fontSrc('Oswald-Medium');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  @include fontSrc('Lora-Regular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  @include fontSrc('Oswald-Regular');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  @include fontSrc('Oswald-Bold');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  @include fontSrc('Lora-Italic');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  @include fontSrc('Oswald-Light');
+  font-weight: 300;
+  font-style: normal;
+}
+
