@@ -1,0 +1,38 @@
+.header {
+
+  &__top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    position: relative;
+
+    &__item {
+
+      &--first {
+        margin-right: auto;
+      }
+
+      &:not(&--first) {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  &__bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__lang__item {
+    font-size: 1.8rem;
+    padding: 1rem;
+    color: $orange;
+    display: none;
+
+    &--active {
+      display: block;
+    }
+  }
+}
