@@ -45,6 +45,10 @@
   &--hasIcon {
     padding: .5em 1em .5em 3em;
     position: relative;
+
+    &--last {
+      margin-right: 5rem;
+    }
   }
 
   &__icon {

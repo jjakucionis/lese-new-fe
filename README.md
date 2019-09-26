@@ -1,8 +1,6 @@
 # Writing code
 For writing styles we will be using [BEM](http://getbem.com/introduction/) in [SCSS](https://sass-lang.com/).
 
-For writing scripts we will be using [TypeScript](https://www.typescriptlang.org/) linted with [TSLint](https://palantir.github.io/tslint/) using [Airbnb JavaScript Style Guide](https://github.com/progre/tslint-config-airbnb).
-
 All the markup has to go in plain PHP code using pre-coded partials located in `partials`.
 
 # Setup
@@ -20,7 +18,7 @@ All the markup has to go in plain PHP code using pre-coded partials located in `
 Note that if after running `npm i` you still cannot run `npm start` then run `npm install --only-dev` to make sure you installed `devDependencies`.
 
 ## GIT Repo
-Setup git repo in [Bitbucket](https://bitbucket.org/) and setup webhooks with subdomain in [Devprojects.lt Plesk](https://80.209.239.18:8443/login_up.php).
+---
 
 # Start
 1. Start MAMP
