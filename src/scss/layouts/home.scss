@@ -1,11 +1,11 @@
 .hero {
 
-  &__cont {
+  &-cont {
     width: 100vw;
     height: 100vh;
   }
 
-  &__slide {
+  &-slide {
 
     &__background {
       width: 100%;
@@ -20,20 +20,53 @@
       width: 100%;
       background-color: rgba(83, 71, 65, .7);
       text-align: center;
-
-      &__title {
-        font-size: 4rem;
-        color: $white;
-        line-height: 1.5em;
-        padding: 1em 0em;
-        text-transform: uppercase;
-        letter-spacing: .05em;
-      }
-
-      &__btn {
-        display: inline-block;
-        margin: 0 auto 40px;
-      }
     }
+
+    &__title {
+      font-size: 4rem;
+      color: $white;
+      line-height: 1.5em;
+      padding: 1em 0em;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+
+    &__btn {
+      display: inline-block;
+      margin: 0 auto 40px;
+    }
+  }
+}
+
+.animals-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+
+  &__animal {
+    margin-bottom: 30px;
+
+  }
+
+  &__img {
+    height: 250px;
+    width: 250px;
+    @include bgCover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  &__name {
+    font-size: 2rem;
+    letter-spacing: .1em;
+    margin-bottom: .3em;
+  }
+
+  &__details {
+    font-family: $font2;
+    color: $ngrey;
+    line-height: 1.5em;
   }
 }

@@ -1,6 +1,13 @@
 .btn {
   font-family: $font;
 
+  &-wrap {
+
+    &--centered {
+      text-align: center;
+    }
+  }
+
   &--orange {
     background-color: $orange;
     color: $white;
@@ -68,6 +75,7 @@
     border-radius: 1em;
     letter-spacing: .07em;
     text-transform: uppercase;
+    display: inline-block;
   }
 
 }

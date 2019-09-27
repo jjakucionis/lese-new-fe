@@ -1,12 +1,13 @@
 .section {
 
-  &__decoration {
+  &-decoration {
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 300px;
-    margin: 5rem auto 1rem;
+    margin: 0 auto;
+    padding: 5rem 0 1rem;
 
     &__svg {
       height: 20px;
@@ -20,7 +21,7 @@
     }
   }
 
-  &__title {
+  &-title {
     font-size: 3rem;
     color: $brown;
     text-align: center;
