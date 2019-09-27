@@ -18,15 +18,15 @@
       </ul>
       <a class="header__logo" href="#"><img class="header__logo__img" src="./assets/images/lese_logo_baltas.png" alt=""></a>
       <ul class="header__navigation header__navigation__right">
-        <li class="header__navigation__item"><a class="header__navigation__link" href="#">Globotiniai</a></li>
-        <li class="header__navigation__item header__navigation__item--hasSub"><a class="header__navigation__link" href="#">Parama</a>
+        <li class="header__navigation__item"><a class="header__navigation__link" href="#">Naujienos</a></li>
+        <li class="header__navigation__item header__navigation__item--hasSub"><a class="header__navigation__link" href="#">Apie mus</a>
           <ul class="header__navigation__subMenu">
             <li class="header__navigation__subItem"><a class="header__navigation__subLink" href="#">Submeniu 4</a></li>
             <li class="header__navigation__subItem"><a class="header__navigation__subLink" href="#">Submeniu 5</a></li>
             <li class="header__navigation__subItem"><a class="header__navigation__subLink" href="#">Submeniu 6</a></li>
           </ul>
         </li>
-        <li class="header__navigation__item"><a class="header__navigation__link" href="#">Savanoriauk</a></li>
+        <li class="header__navigation__item"><a class="header__navigation__link" href="#">Kontaktai</a></li>
       </ul>
     </div>
   </div>

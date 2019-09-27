@@ -12,4 +12,7 @@
 @import "parts/common";
 @import "parts/header";
 @import "parts/buttons";
-@import "parts/home";
+@import "parts/section-title.scss";
+@import "parts/filter.scss";
+
+@import "layouts/home";

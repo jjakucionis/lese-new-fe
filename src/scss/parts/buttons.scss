@@ -62,6 +62,12 @@
     }
   }
 
-
+  &__common {
+    font-size: 1.6rem;
+    padding: 1em 4em;
+    border-radius: 1em;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+  }
 
 }

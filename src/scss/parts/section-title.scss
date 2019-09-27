@@ -1,0 +1,30 @@
+.section {
+
+  &__decoration {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 5rem auto 1rem;
+
+    &__svg {
+      height: 20px;
+      position: relative;
+    }
+
+    &__line {
+      height: 2px;
+      width: 120px;
+      background-color: $lgrey;
+    }
+  }
+
+  &__title {
+    font-size: 3rem;
+    color: $brown;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 1.5em;
+  }
+}
