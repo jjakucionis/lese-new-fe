@@ -245,6 +245,23 @@
       <div class="news-pagination"></div>
     </div>
   </section>
+  <section class="section statistics">
+      <div class="stat">
+        <div class="stat-block">
+          <div class="stat-round"><span class="stat-number">1</span></div>
+          <p class="stat-text">Rado namus</p>
+        </div>
+        <div class="stat-block">
+          <div class="stat-round stat-round--noSub stat-round--orange"><a href="#" class="stat-link">Statistika</a></div>
+        </div>
+        <div class="stat-block">
+          <div class="stat-round"><span class="stat-number">4</span></div>
+          <p class="stat-text">Laukia šeimininkų</p>
+        </div>
+      </div>
+    <div class="statistics__overlay overlay overlay--brown"></div>
+    <div class="statistics__image" style="background-image: url(./assets/images/stat-bg.png)"></div>
+  </section>
 </main>
 <?php include './partials/footer.php'; ?>
 <?php include './partials/foot.php'; ?>

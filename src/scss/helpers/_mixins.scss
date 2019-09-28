@@ -10,6 +10,11 @@
   background-size: contain;
 }
 
+@mixin overlayB() {
+  background-color: #200F02;
+  opacity: 0.8;
+}
+
 @mixin clearfix() {
   &:after, &:before {
     display: table;

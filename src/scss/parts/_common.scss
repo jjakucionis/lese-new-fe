@@ -32,13 +32,22 @@ body {
 }
 
 .swiper-pagination-bullet {
-  height: 17px;
-  width: 17px;
-  border: 2px solid $orange;
+  height: 15px;
+  width: 15px;
+  background-color: $ngrey;
   border-radius: 50%;
-  margin: 0px 5px
+  margin: 0px 5px;
+  opacity: .5;
 }
 
 .swiper-pagination-bullet-active {
   background-color: $orange;
+  opacity: 1;
+}
+
+.overlay {
+
+  &--brown {
+    @include overlayB();
+  }
 }
