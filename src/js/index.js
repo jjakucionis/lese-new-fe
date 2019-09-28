@@ -7,7 +7,7 @@ window.$ = $;
 
 $(document).ready(function(){
 
-  var mySwiper = new Swiper ('.swiper-container', {
+  var mySwiper = new Swiper ('.hero-cont', {
     // Optional parameters
     direction: 'vertical',
     loop: true,
@@ -30,6 +30,24 @@ $(document).ready(function(){
     // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',
+    },
+  })
+
+  var mySwiper = new Swiper ('.news-cont', {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 3,
+    spaceBetween: 20,
+    
+    // If we need pagination
+    pagination: {
+      el: '.news-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.news-button__next',
+      prevEl: '.news-button__prev',
     },
   })
   

@@ -70,3 +70,106 @@
     line-height: 1.5em;
   }
 }
+
+.news {
+
+  &-cont {
+    padding-bottom: 30px;
+  }
+
+  &-slide {
+
+    &__img {
+      height: 250px;
+      border-radius: 10px;
+      @include bgCover;
+      margin-bottom: 10px;
+    }
+
+    &__date {
+      color: $ngrey;
+      font-family: $font;
+      margin-bottom: 10px;
+    }
+
+    &__title {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+
+    &__text {
+      font-family: $font2;
+      color: $ngrey;
+      line-height: 1.5em;
+      height: 6.4rem;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+
+    &__read-more-wrap {
+      text-align: right;
+    }
+
+    &__read-more {
+      color: $orange;
+    }
+  }
+
+  &-button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .arrow {
+      height: 20px;
+      width: 20px;
+      border-top: 3px solid $orange;
+      border-right: 3px solid $orange;
+      opacity: .5;
+      transition: .3s cubic-bezier();
+    }
+
+    &:hover {
+
+      .arrow {
+        opacity: 1;
+      }
+    }
+  }
+
+  &-button__prev {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 50px;
+
+    .arrow {
+      transform: rotate(-135deg);
+    }
+  }
+
+  &-button__next {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 50px;
+
+    .arrow {
+      transform: rotate(45deg);
+    }
+  }
+
+  &-pagination {
+    height: 25px;
+  }
+
+  .container {
+    position: relative;
+  }
+}
+
+

@@ -61,7 +61,7 @@
       </div>
       <div class="animals-list">
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-04.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-04.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-09.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-09.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -83,7 +83,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -105,7 +105,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-09.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-09.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -127,7 +127,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -138,7 +138,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-04.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-04.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -149,7 +149,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -160,7 +160,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -171,7 +171,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -182,7 +182,7 @@
           </div>
         </div>
         <div class="animals-list__animal">
-          <div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
           <div class="animals-list__content">
             <h2 class="animals-list__name">Rudis</h2>
             <p class="animals-list__details">
@@ -206,7 +206,43 @@
     </div>
     <h2 class="section-title animal-title">Naujienos</h2>
     <div class="container">
-
+      <div class="news-cont swiper-container">
+        <div class="news-cont__wrapper swiper-wrapper">
+            <!-- Slides -->
+            <div class="news-slide swiper-slide">
+              <a href="#"><div class="news-slide__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+              <div class="news-slide__date">2019-06-11</div>
+              <h3 class="news-slide__title">Naujienos pavadinimas</h3>
+              <p class="news-slide__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              <div class="news-slide__read-more-wrap"><a class="news-slide__read-more" href="#">Skaityti daugiau</a></div>
+            </div>
+            <div class="news-slide swiper-slide">
+              <a href="#"><div class="news-slide__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+              <div class="news-slide__date">2019-06-11</div>
+              <h3 class="news-slide__title">Naujienos pavadinimas</h3>
+              <p class="news-slide__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              <div class="news-slide__read-more-wrap"><a class="news-slide__read-more" href="#">Skaityti daugiau</a></div>
+            </div>
+            <div class="news-slide swiper-slide">
+              <a href="#"><div class="news-slide__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+              <div class="news-slide__date">2019-06-11</div>
+              <h3 class="news-slide__title">Naujienos pavadinimas</h3>
+              <p class="news-slide__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="news-slide__read-more-wrap"><a class="news-slide__read-more" href="#">Skaityti daugiau</a></div>
+            </div>
+            <div class="news-slide swiper-slide">
+              <a href="#"><div class="news-slide__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+              <div class="news-slide__date">2019-06-11</div>
+              <h3 class="news-slide__title">Naujienos pavadinimas</h3>
+              <p class="news-slide__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              <div class="news-slide__read-more-wrap"><a class="news-slide__read-more" href="#">Skaityti daugiau</a></div>
+            </div>
+        </div>
+      </div>
+      <!-- swipper controls for news section -->
+      <div class="news-button news-button__prev"><div class="arrow"></div></div>
+      <div class="news-button news-button__next"><div class="arrow"></div></div>
+      <div class="news-pagination"></div>
     </div>
   </section>
 </main>
