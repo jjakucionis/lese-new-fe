@@ -67,7 +67,7 @@
     }
   }
 
-  &__navigation {
+  &-navigation {
     display: flex;
     width: 35%;
     justify-content: space-between;
@@ -123,7 +123,7 @@
 
         &:hover {
 
-          .header__navigation__subMenu {
+          .header-navigation__subMenu {
             display: block;
           }
         }

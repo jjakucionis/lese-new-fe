@@ -53,8 +53,8 @@
         </div>
         <div class="filter__group">
           <select class="filter__select" name="sorting" id="sorting">
-            <option value="naujausi">Naujausi</option>
-            <option value="seniausi">Seniausi</option>
+            <option value="naujausi">Nuo naujausių</option>
+            <option value="seniausi">Nuo seniausių</option>
           </select>
         </div>
         <a class="btn--orange filter__btn" href="#"><span></span></a>
@@ -194,7 +194,7 @@
         </div>
       </div>
       <div class="btn-wrap--centered">
-        <a class="btn__common btn--orange animal-btn" href="#">Visi gyvūnai</a>
+        <a class="btn__common btn--orange btn--shadow animal-btn" href="#">Visi gyvūnai</a>
       </div>
     </div>
   </section>
