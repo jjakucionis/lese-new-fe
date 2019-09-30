@@ -18,6 +18,10 @@
       height: 2px;
       width: 120px;
       background-color: $lgrey;
+
+      &--white {
+        background-color: $white;
+      }
     }
   }
 
