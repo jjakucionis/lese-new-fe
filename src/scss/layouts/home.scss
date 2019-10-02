@@ -263,6 +263,7 @@
 
   &-wrap {
     display: flex;
+    margin-bottom: 30px;
   }
 }
 
@@ -317,7 +318,7 @@
 
   &__content {
     height: 275px;
-    padding: 2rem 2rem;
+    padding: 2rem 3rem;
 
     &--imgTop {
       order: 2;
@@ -335,9 +336,10 @@
   }
 
   &__title {
-    height: 2.5rem;
     font-size: 1.8rem;
     margin-bottom: 1rem;
+    overflow: hidden;
+    max-height: 3.6rem;
   }
 
   &__text {
@@ -351,6 +353,74 @@
 
   &__button {
     display: inline-block;
+  }
+}
+
+.learn {
+  padding-top: 40px;
+
+  &__background {
+    @include bgCover();
+  }
+
+  &__content {
+    width: 50%;
+    background-color: rgba($color: $white, $alpha: .8);
+    padding: 4rem;
+  }
+
+  &__title {
+    font-family: $font;
+    color: $brown;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+
+  &__text {
+    font-family: $font2;
+    color: $ngrey;
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    font-weight: 600;
+    margin-bottom: 1em;
+    letter-spacing: .03em;
+  }
+
+  &__button {
+    display: inline-block;
+  }
+}
+
+.sponsors {
+
+  &-cont {
+    width: 100%;
+    
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &-slide {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__logo-wrap {
+    width: 25%;
+    height: 150px;
+    padding: 15px 25px;
+  }
+
+  &__logo {
+    position: relative;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 

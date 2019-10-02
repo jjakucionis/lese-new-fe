@@ -275,7 +275,7 @@
           <div class="story__img story__img--imgTop" style="background-image: url(./assets/images/news1.jpg)"></div>
           <div class="story__content story__content--imgTop">
             <div class="story__date">2019-05-13</div>
-            <h3 class="story__title">Rudis laimingas naujuose namuose</h3>
+            <a href="#"><h3 class="story__title">Rudis laimingas naujuose namuose</h3></a>
             <p class="story__text">tekstukas koks nors trumpas tekstukas koks nors trumpas</p>
             <a class="story__button btn btn--white" href="#">Skaityti daugiau</a>
           </div>
@@ -284,7 +284,7 @@
           <div class="story__img story__img--imgBottom" style="background-image: url(./assets/images/news1.jpg)"></div>
           <div class="story__content story__content--imgBottom">
             <div class="story__date">2019-05-13</div>
-            <h3 class="story__title">Rudis laimingas naujuose namuose</h3>
+            <a href="#"><h3 class="story__title">Rudis laimingas naujuose namuose</h3></a>
             <p class="story__text">tekstukas koks nors trumpas tekstukas koks nors trumpas</p>
             <a class="story__button btn btn--white" href="#">Skaityti daugiau</a>
           </div>
@@ -293,7 +293,7 @@
           <div class="story__img story__img--imgTop" style="background-image: url(./assets/images/news1.jpg)"></div>
           <div class="story__content story__content--imgTop">
             <div class="story__date">2019-05-13</div>
-            <h3 class="story__title">Rudis laimingas naujuose namuose</h3>
+            <a href="#"><h3 class="story__title">Rudis laimingas naujuose namuose</h3></a>
             <p class="story__text">tekstukas koks nors trumpas tekstukas koks nors trumpas tekstukas koks nors trumpas tekstukas koks nors trumpas</p>
             <a class="story__button btn btn--white" href="#">Skaityti daugiau</a>
           </div>
@@ -302,9 +302,126 @@
           <div class="story__img story__img--imgBottom" style="background-image: url(./assets/images/news1.jpg)"></div>
           <div class="story__content story__content--imgBottom">
             <div class="story__date">2019-05-13</div>
-            <h3 class="story__title">Rudis laimingas naujuose namuose</h3>
+            <a href="#"><h3 class="story__title">Rudis laimingas naujuose namuose</h3></a>
             <p class="story__text">tekstukas koks nors trumpas tekstukas koks nors trumpas</p>
             <a class="story__button btn btn--white" href="#">Skaityti daugiau</a>
+          </div>
+        </div>
+      </div>
+      <div class="btn-wrap--centered">
+        <a class="btn__common btn--orange btn--shadow stories-btn" href="#">Daugiau istorijų</a>
+      </div>
+    </div>
+  </section>
+  <section class="section learn">
+    <div class="section-decoration">
+      <div class="section-decoration__line"></div>
+      <svg class="section-decoration__svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193.43 198.26"><defs><style>.cls-1{fill:#e87e04;}</style></defs><title>vet-icon</title><path class="cls-1" d="M160.1,139.7c-6.4-4.9-13.3-9.5-18.7-15.4s-9.2-13.3-14-19.9c-1.9-2.6-3.9-5.6-6.7-7a107.06,107.06,0,0,0-18.3-7.2c-6.7-1.9-13.8-2-20.2,1.1-10.7,5.2-18.7,13.6-26.5,22.3a160.06,160.06,0,0,1-18.2,17.7c-4.2,3.4-9.9,4.9-14.6,7.8-14.5,9-17.8,35.6-6.7,47.3,5.4,5.8,11.4,10,18.7,11.8,8.4,2,17,1.1,25.4-1.7,6.3-2.1,12.7-5.3,19.2-5.4,10.8-.2,21.7,1.3,32.4,2.6,10.1,1.3,20.1,3.4,30.2,5.1,12.3.1,22-4.6,29.1-14.2,5.8-7.9,8.4-16.7,4.8-26.5C172.9,150.3,166.7,144.8,160.1,139.7ZM129.3,156H107.7v21.6h-23V156H63.1V133.1H84.7V111.5h22.9v21.6h21.6V156Z" transform="translate(-3.25 -1.02)"/><path class="cls-1" d="M118.7,84.3c6.1,6.9,18.4,7.1,26.9-4.5,7.3-10,10.4-21.4,10.4-38.5a42.24,42.24,0,0,0-7.1-22.4c-4.7-6.9-11.5-10.1-19.4-9.1-6.8.9-11.9,5.7-14.5,12.1-5.5,13.9-8.4,28.4-5.1,43.2C111.5,71.8,114.2,79.2,118.7,84.3Z" transform="translate(-3.25 -1.02)"/><path class="cls-1" d="M82.1,77.9c6.7-3.3,9.3-9.5,11.3-16.5,4.3-15.2,6.4-30.2-.2-45.3C90,8.6,83.9.1,74.8,1.1c-3.1,1.1-6.6,1.6-9.2,3.4C56.4,10.8,53,20.6,51.5,30.9A70.26,70.26,0,0,0,56,68C61.2,80.3,70.5,83.6,82.1,77.9Z" transform="translate(-3.25 -1.02)"/><path class="cls-1" d="M3.6,79.6c.4,2.6.9,7.2,1.6,10.8,1.8,8.7,5.6,16.3,14,20.3,13.2,6.1,28.3-7.4,28.9-21.4a74.32,74.32,0,0,0-2.2-21c-3-12-8.2-22.3-22.8-23.8-7.6-.8-16.5,6.2-18.2,14A66,66,0,0,0,3.6,79.6Z" transform="translate(-3.25 -1.02)"/><path class="cls-1" d="M196.1,76.9c-.7-6.8-6.6-14.1-14.1-16.5-5.8-1.8-15.3,1.3-19.1,6.3-6.8,9.1-10.2,19.5-11.3,30.8.2,3.5.4,7.1.7,10.8,1,13.2,10.9,23.6,25.2,19.2,9.8-3,13.2-12,16-20.5C196.7,97.4,197.3,87.2,196.1,76.9Z" transform="translate(-3.25 -1.02)"/></svg>
+      <div class="section-decoration__line"></div>
+    </div>
+    <h2 class="section-title learn-title">Švietimas</h2>
+    <div class="learn__background" style="background-image: url(./assets/images/happy-dog.jpg)">
+      <div class="container">
+        <div class="learn__content">
+          <h3 class="learn__title">Tekstas apie švietimą</h3>
+          <p class="learn__text">Jau daugiau nei penkerius metus ypatingą dėmesį skiriame švietimui. Pradėjome nuo mokinių grupių priėmimo savo prieglaudoje, o dabar stengiamės šviesti ne tik jaunuolius, bet ir visą visuomenę. Šiam tikslui naudojame socialinius tinklus, taip pat dalyvaujame įvairiuose renginiuose. Ekskursijų metu su mokiniais diskutuojame apie benamius gyvūnus: iš kur jie atsiranda, ką daryti, kad jų mažėtų, kokią funkciją atlieka gyvūnų prieglaudos. Mokiniai sužino apie šunų kūno kalbą, naminių gyvūnų priežiūrą, savanorystę. Taip pat neužmirštame ir mūsų kačių - jos gauna daug dėmesio ir švelnių paglostymų iš moksleivių. Pakviesti vykstame ir į mokyklas, kur vedame pamokas. Pamokų tikslas - puoselėti jaunosios kartos atsakingą požiūrį į augintinius ir padėti suprasti, kaip bendrauti su šunimi, kad išvengti įkandimų. Pamokų turinys yra pritaikytas skirtingoms amžiaus grupėms, tad parašykite, jei norite mus pasikviesti! Pamokos yra nemokamos.</p>
+          <a class="learn__button btn btn--white" href="#">Skaityti daugiau</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section sponsors">
+    <div class="section-decoration">
+      <div class="section-decoration__line"></div>
+      <svg class="section-decoration__svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193.43 198.26"><defs><style>.cls-1{fill:#e87e04;}</style></defs><title>vet-icon</title><path class="cls-1" d="M160.1,139.7c-6.4-4.9-13.3-9.5-18.7-15.4s-9.2-13.3-14-19.9c-1.9-2.6-3.9-5.6-6.7-7a107.06,107.06,0,0,0-18.3-7.2c-6.7-1.9-13.8-2-20.2,1.1-10.7,5.2-18.7,13.6-26.5,22.3a160.06,160.06,0,0,1-18.2,17.7c-4.2,3.4-9.9,4.9-14.6,7.8-14.5,9-17.8,35.6-6.7,47.3,5.4,5.8,11.4,10,18.7,11.8,8.4,2,17,1.1,25.4-1.7,6.3-2.1,12.7-5.3,19.2-5.4,10.8-.2,21.7,1.3,32.4,2.6,10.1,1.3,20.1,3.4,30.2,5.1,12.3.1,22-4.6,29.1-14.2,5.8-7.9,8.4-16.7,4.8-26.5C172.9,150.3,166.7,144.8,160.1,139.7ZM129.3,156H107.7v21.6h-23V156H63.1V133.1H84.7V111.5h22.9v21.6h21.6V156Z" transform="translate(-3.25 -1.02)"/><path class="cls-1" d="M118.7,84.3c6.1,6.9,18.4,7.1,26.9-4.5,7.3-10,10.4-21.4,10.4-38.5a42.24,42.24,0,0,0-7.1-22.4c-4.7-6.9-11.5-10.1-19.4-9.1-6.8.9-11.9,5.7-14.5,12.1-5.5,13.9-8.4,28.4-5.1,43.2C111.5,71.8,114.2,79.2,118.7,84.3Z" transform="translate(-3.25 -1.02)"/><path class="cls-1" d="M82.1,77.9c6.7-3.3,9.3-9.5,11.3-16.5,4.3-15.2,6.4-30.2-.2-45.3C90,8.6,83.9.1,74.8,1.1c-3.1,1.1-6.6,1.6-9.2,3.4C56.4,10.8,53,20.6,51.5,30.9A70.26,70.26,0,0,0,56,68C61.2,80.3,70.5,83.6,82.1,77.9Z" transform="translate(-3.25 -1.02)"/><path class="cls-1" d="M3.6,79.6c.4,2.6.9,7.2,1.6,10.8,1.8,8.7,5.6,16.3,14,20.3,13.2,6.1,28.3-7.4,28.9-21.4a74.32,74.32,0,0,0-2.2-21c-3-12-8.2-22.3-22.8-23.8-7.6-.8-16.5,6.2-18.2,14A66,66,0,0,0,3.6,79.6Z" transform="translate(-3.25 -1.02)"/><path class="cls-1" d="M196.1,76.9c-.7-6.8-6.6-14.1-14.1-16.5-5.8-1.8-15.3,1.3-19.1,6.3-6.8,9.1-10.2,19.5-11.3,30.8.2,3.5.4,7.1.7,10.8,1,13.2,10.9,23.6,25.2,19.2,9.8-3,13.2-12,16-20.5C196.7,97.4,197.3,87.2,196.1,76.9Z" transform="translate(-3.25 -1.02)"/></svg>
+      <div class="section-decoration__line"></div>
+    </div>
+    <h2 class="section-title sponsors-title">Mūsų rėmėjai</h2>
+    <div class="container">
+      <div class="sponsors-cont swiper-container">
+        <div class="swiper-wrapper">
+          <div class="sponsors-slide swiper-slide">
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+                <img class="sponsors__logo" src="./assets/images/logotipai/logo1.jpg" alt="">
+              </a>
+            </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+                <img class="sponsors__logo" src="./assets/images/logotipai/logo3.jpg" alt="">
+              </a>
+            </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+                <img class="sponsors__logo" src="./assets/images/logotipai/logo4.png" alt="">
+              </a>
+            </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo3.jpg" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo1.jpg" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo3.jpg" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo6.png" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap"><a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo1.jpg" alt="">
+            </a>
+          </div>
+          </div>
+          <div class="sponsors-slide swiper-slide">
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo2.png" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo3.jpg" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo1.jpg" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo3.jpg" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo6.png" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo2.png" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+              <img class="sponsors__logo" src="./assets/images/logotipai/logo3.jpg" alt="">
+            </a>
+          </div>
+            <div class="sponsors__logo-wrap">
+              <a href="" target="_blank">
+                <img class="sponsors__logo" src="./assets/images/logotipai/logo1.jpg" alt="">
+              </a>
+            </div>
           </div>
         </div>
       </div>

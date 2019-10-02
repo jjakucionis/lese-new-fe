@@ -31,7 +31,7 @@ $(document).ready(function(){
     scrollbar: {
       el: '.swiper-scrollbar',
     },
-  })
+  });
 
   var mySwiper = new Swiper ('.news-cont', {
     // Optional parameters
@@ -49,7 +49,19 @@ $(document).ready(function(){
       nextEl: '.news-button__next',
       prevEl: '.news-button__prev',
     },
-  })
+  });
+
+  var mySwiper = new Swiper ('.sponsors-cont', {
+    // Optional parameters
+    direction: 'horizontal',
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 5500,
+      disableOnInteraction: false,
+    },
+  });
   
 
 
