@@ -1,0 +1,64 @@
+.footer {
+  background-image: url(../img/footer.jpg);
+  @include bgCover();
+  position: relative;
+  padding: 50px 0px;
+
+  &__overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    z-index: 0;
+    left: 0px;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer-block {
+
+  &__title {
+    color: $white;
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+
+    &::after {
+      content: "";
+      width: auto;
+      height: 2px;
+      display: block;
+      background-color: #e87e04;
+      position: relative;
+      margin-top: 1rem;
+    }
+
+  }
+
+  p {
+    color: $white;
+    line-height: 1.5em;
+  }
+
+  &__item {
+    color: $white;
+    font-family: $font;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+  }
+}
+
+.social {
+  display: flex;
+  justify-content: left;
+  padding-top: 20px;
+
+  img {
+    margin-right: 10px;
+  }
+}

@@ -1,5 +1,5 @@
 <footer class="footer">
-  <div class="container">
+  <div class="footer__container container">
     <div class="footer-block footer-block__logo">
       <img src="./assets/images/lese_logo_baltas.png" alt="">
     </div>
@@ -31,6 +31,11 @@
       <p><span></span><a href="#">Savanorių pr. 33-91, Vilnius LT-03128</a></p>
       <p><span></span><a href="tel:+37060533452">+370 605 33452</a></p>
       <p><span></span><a href="mailto:info@lese.lt">info@lese.lt</a></p>
+      <div class="social">
+        <a href="#" class="social__link" target="_blank"><img src="./src/img/fb.png" alt="Lesė facebook"></a>
+        <a href="#" class="social__link" target="_blank"><img src="./src/img/ig.png" alt="Lesė instagram"></a>
+        <a href="#" class="social__link" target="_blank"><img src="./src/img/tw.png" alt="Lesė twitter"></a>
+      </div>
     </div>
   </div>
   <div class="footer__overlay overlay overlay--brown"></div>
