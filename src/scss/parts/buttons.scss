@@ -59,6 +59,13 @@
     &--last {
       margin-right: 5rem;
     }
+
+    &:hover {
+
+      svg {
+        fill: $white;
+      }
+    }
   }
 
   &__icon {

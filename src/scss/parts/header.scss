@@ -54,6 +54,10 @@
     &--active {
       display: block;
     }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__logo {

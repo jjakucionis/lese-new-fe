@@ -11,7 +11,9 @@
 
     &__svg {
       height: 20px;
+      width: auto;
       position: relative;
+      fill: $orange;
     }
 
     &__line {
