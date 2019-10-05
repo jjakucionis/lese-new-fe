@@ -1,7 +1,7 @@
 <?php include './partials/head.php'; ?>
 <?php include './partials/header.php'; ?>
 <main>
-  <section class="section animal">
+  <section class="section animal animal__inner">
     <div class="section-decoration">
       <div class="section-decoration__line"></div>
       <svg class="section-decoration__svg" width="551.06px" height="551.06px" enable-background="new 0 0 551.062 551.062" version="1.1" viewBox="0 0 551.062 551.062" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
@@ -179,93 +179,320 @@
           </div>
         </div>
         <div class="animals-list__animal">
-            <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
-            <div class="animals-list__content">
-              <h2 class="animals-list__name">Rudis</h2>
-              <p class="animals-list__details">
-                Veislės tipas
-                <br>
-                Patinas/Patelė
-              </p>
-            </div>
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
           </div>
-          <div class="animals-list__animal">
-            <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
-            <div class="animals-list__content">
-              <h2 class="animals-list__name">Rudis</h2>
-              <p class="animals-list__details">
-                Veislės tipas
-                <br>
-                Patinas/Patelė
-              </p>
-            </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
           </div>
-          <div class="animals-list__animal">
-            <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
-            <div class="animals-list__content">
-              <h2 class="animals-list__name">Rudis</h2>
-              <p class="animals-list__details">
-                Veislės tipas
-                <br>
-                Patinas/Patelė
-              </p>
-            </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
           </div>
-          <div class="animals-list__animal">
-            <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
-            <div class="animals-list__content">
-              <h2 class="animals-list__name">Rudis</h2>
-              <p class="animals-list__details">
-                Veislės tipas
-                <br>
-                Patinas/Patelė
-              </p>
-            </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
           </div>
-          <div class="animals-list__animal">
-            <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
-            <div class="animals-list__content">
-              <h2 class="animals-list__name">Rudis</h2>
-              <p class="animals-list__details">
-                Veislės tipas
-                <br>
-                Patinas/Patelė
-              </p>
-            </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
           </div>
-          <div class="animals-list__animal">
-            <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
-            <div class="animals-list__content">
-              <h2 class="animals-list__name">Rudis</h2>
-              <p class="animals-list__details">
-                Veislės tipas
-                <br>
-                Patinas/Patelė
-              </p>
-            </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
           </div>
-          <div class="animals-list__animal">
-            <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
-            <div class="animals-list__content">
-              <h2 class="animals-list__name">Rudis</h2>
-              <p class="animals-list__details">
-                Veislės tipas
-                <br>
-                Patinas/Patelė
-              </p>
-            </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
           </div>
-          <div class="animals-list__animal">
-            <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
-            <div class="animals-list__content">
-              <h2 class="animals-list__name">Rudis</h2>
-              <p class="animals-list__details">
-                Veislės tipas
-                <br>
-                Patinas/Patelė
-              </p>
-            </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
           </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-04.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-09.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-09.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-04.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-08.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-06.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-17.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+        <div class="animals-list__animal">
+          <a href="#"><div class="animals-list__img" style="background-image: url(./assets/images/pet-07.jpg)"></div></a>
+          <div class="animals-list__content">
+            <h2 class="animals-list__name">Rudis</h2>
+            <p class="animals-list__details">
+              Veislės tipas
+              <br>
+              Patinas/Patelė
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+        <a href="#" class="pagination__bullet pagination__bullet--active">1</a>
+        <a href="#" class="pagination__bullet">2</a>
+        <a href="#" class="pagination__bullet pagination__bullet--empty">...</a>
+        <a href="#" class="pagination__bullet">4</a>
+        <a href="#" class="pagination__bullet pagination__bullet--next"></a>
       </div>
     </div>
   </section>
