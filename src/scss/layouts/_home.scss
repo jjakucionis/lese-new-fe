@@ -27,8 +27,10 @@
       color: $white;
       line-height: 1.5em;
       padding: 1em 0em;
-      text-transform: uppercase;
+      text-transform: capitalize;
       letter-spacing: .05em;
+      font-family: $font2;
+      font-weight: 700;
     }
 
     &__btn {
