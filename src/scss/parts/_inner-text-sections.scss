@@ -23,5 +23,34 @@
     a {
       color: $orange;
     }
+
+    li {
+      position: relative;
+      color: $ngrey;
+      padding: 0 0 .5em 20px;
+      font-family: $font2;
+      line-height: 1.5em;
+      font-size: 1.6rem;
+      font-weight: 500;
+  
+      &::after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 5px;
+        background-color: $orange;
+        border-radius: 50%;
+        left: 0px;
+        top: 10px;
+      }
+    }
+
+    strong {
+      font-weight: 900;
+    }
+
+    td {
+      padding: 2rem;
+    }
   }
 }

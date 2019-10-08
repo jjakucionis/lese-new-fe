@@ -1,0 +1,20 @@
+.thank {
+  height: 500px;
+
+  &-wrap {
+    background-color: $orange;
+    max-width: 475px;
+    margin: 0 auto;
+  }
+
+  &-text {
+    color: $white;
+  }
+
+  &-icon {
+    height: 40px;
+    width: 40px;
+    fill: $white;
+    margin-top: 20px;
+  }
+}

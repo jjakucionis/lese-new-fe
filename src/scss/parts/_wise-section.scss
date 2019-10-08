@@ -1,0 +1,36 @@
+.wise {
+  height: 500px;
+  position: relative;
+  @include bgCover();
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+  }
+
+  .container {
+    height: 100%;
+  }
+
+  &-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+  }
+
+  &-text {
+    font-size: 3.5rem;
+    font-style: italic;
+    color: $white;
+    text-align: center;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+  }
+}
