@@ -1,0 +1,58 @@
+.controls {
+
+  &--padding {
+    padding-top: 135px;
+  }
+
+  .flexwrap {
+    justify-content: space-between;
+  }
+}
+
+.breadcrumbs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn__breadcrumb {
+  color: $orange;
+  margin-right: 2rem;
+  position: relative;
+
+  &:not(:last-child)::after {
+    content: ">";
+    position: absolute;
+    top: 0px;
+    right: -1.3rem;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.go-back {
+
+  .btn__back {
+    position: relative;
+    padding-left: 30px;
+    color: $brown;
+
+    svg {
+      height: 20px;
+      position: absolute;
+      left: 0px;
+      top: 2px;
+      fill: $brown;
+      transition: .3s cubic-bezier();
+    }
+
+    &:hover {
+
+      svg {
+        left: -5px;
+      }
+    }
+
+  }
+}

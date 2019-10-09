@@ -111,6 +111,8 @@
 
   &-cont {
     padding-bottom: 30px;
+    width: 100%;
+    height: 462px;
   }
 
   &-slide {
@@ -428,6 +430,7 @@
 
   &-cont {
     width: 100%;
+    height: 200px;
     
     &__wrapper {
       display: flex;
