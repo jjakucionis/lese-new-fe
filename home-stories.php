@@ -10,71 +10,97 @@
         </svg>
         <div class="section-decoration__line"></div>
       </div>
-      <h1 class="section-title section-title--inner">Naujienos</h1>
+      <h1 class="section-title section-title--inner">Istorijos iš namų</h1>
       <p class="section-subtext">Lorem ipsum text text lorem ipsum</p>
     </div>
   </section>
-  <section class="section news-section">
+  <section class="section stories-section">
     <div class="container">
-        <div class="filter">
-          <div class="filter__group">
-            <select class="filter__select" name="city" id="city">
-              <option value="visos-naujienos">Visos naujienos</option>
-              <option value="organizacijos-naujienos">Organizacijos naujienos</option>
-              <option value="kitos-naujienos">Kitos naujienos</option>
-            </select>
-          </div>
-          <div class="filter__group">
-            <select class="filter__select" name="sorting" id="sorting">
-              <option value="naujausi">Nuo naujausių</option>
-              <option value="seniausi">Nuo seniausių</option>
-            </select>
-          </div>
-          <a class="btn--orange filter__btn btn--shadow" href="#"><svg enable-background="new 0 0 56.966 56.966" version="1.1" viewBox="0 0 56.966 56.966" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m55.146 51.887l-13.558-14.101c3.486-4.144 5.396-9.358 5.396-14.786 0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c4.761 0 9.298-1.436 13.177-4.162l13.661 14.208c0.571 0.593 1.339 0.92 2.162 0.92 0.779 0 1.518-0.297 2.079-0.837 1.192-1.147 1.23-3.049 0.083-4.242zm-31.162-45.887c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z"/></svg>
-          </a>
-        </div>
         <div class="news-list">
           <article class="news-block">
-            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/AnimalShelter.jpg)"></div></a>
+            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
             <div class="news-block__wrap">
-              <a href="#"><h3 class="news-block__title">Naujienos pavadinimas</h3></a>
-              <p class="news-block__subtitle">Organizacijos naujienos</p>
+              <a href="#"><h3 class="news-block__title">Istorijos pavadinimas</h3></a>
               <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
           </article>
           <article class="news-block">
             <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/AnimalShelter.jpg)"></div></a>
             <div class="news-block__wrap">
+              <a href="#"><h3 class="news-block__title">Istorijos pavadinimas lorep ipsum</h3></a>
+              <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+          </article>
+          <article class="news-block">
+            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+            <div class="news-block__wrap">
               <a href="#"><h3 class="news-block__title">Naujienos pavadinimas</h3></a>
-              <p class="news-block__subtitle">Organizacijos naujienos</p>
               <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
           </article>
           <article class="news-block">
             <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/AnimalShelter.jpg)"></div></a>
             <div class="news-block__wrap">
-              <a href="#"><h3 class="news-block__title">Naujienos pavadinimas</h3></a>
-              <p class="news-block__subtitle">Organizacijos naujienos</p>
+              <a href="#"><h3 class="news-block__title">Istorijos pavadinimas</h3></a>
+              <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+          </article>
+          <article class="news-block">
+            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+            <div class="news-block__wrap">
+              <a href="#"><h3 class="news-block__title">Lorem ipsum pavadinimas</h3></a>
+              <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+          </article>
+          <article class="news-block">
+            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+            <div class="news-block__wrap">
+              <a href="#"><h3 class="news-block__title">Istorijos pavadinimas</h3></a>
               <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
           </article>
           <article class="news-block">
             <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/AnimalShelter.jpg)"></div></a>
             <div class="news-block__wrap">
+              <a href="#"><h3 class="news-block__title">Istorijos pavadinimas lorep ipsum</h3></a>
+              <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+          </article>
+          <article class="news-block">
+            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+            <div class="news-block__wrap">
               <a href="#"><h3 class="news-block__title">Naujienos pavadinimas</h3></a>
-              <p class="news-block__subtitle">Organizacijos naujienos</p>
               <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
           </article>
           <article class="news-block">
             <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/AnimalShelter.jpg)"></div></a>
             <div class="news-block__wrap">
-              <a href="#"><h3 class="news-block__title">Naujienos pavadinimas</h3></a>
-              <p class="news-block__subtitle">Organizacijos naujienos</p>
+              <a href="#"><h3 class="news-block__title">Istorijos pavadinimas</h3></a>
               <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             </div>
           </article>
-
+          <article class="news-block">
+            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+            <div class="news-block__wrap">
+              <a href="#"><h3 class="news-block__title">Lorem ipsum pavadinimas</h3></a>
+              <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+          </article>
+          <article class="news-block">
+            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/AnimalShelter.jpg)"></div></a>
+            <div class="news-block__wrap">
+              <a href="#"><h3 class="news-block__title">Istorijos pavadinimas</h3></a>
+              <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+          </article>
+          <article class="news-block">
+            <a href="#"><div class="news-block__img" style="background-image: url(./assets/images/news1.jpg)"></div></a>
+            <div class="news-block__wrap">
+              <a href="#"><h3 class="news-block__title">Lorem ipsum pavadinimas</h3></a>
+              <p class="news-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+          </article>
         </div>
       <div class="pagination">
         <a href="#" class="pagination__bullet pagination__bullet--active">1</a>
