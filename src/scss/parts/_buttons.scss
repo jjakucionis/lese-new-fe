@@ -89,3 +89,41 @@
   }
 
 }
+
+.share-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px 2px 8px;
+  margin: 10px;
+  color: $white;
+  border-radius: 2px;
+  text-decoration: none;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+
+  svg {
+    fill: $white;
+    width: 19px;
+    height: 19px;
+    margin-right: 5px;
+  }
+}
+
+.facebook { 
+  background-color: #4A66B7; 
+
+  &:hover { 
+    background-color: #556fbb; 
+  }
+}
+
+.printPage {
+  background-color: #5f99cf;
+
+  &:hover {
+    background-color: #75a6d4;
+  }
+
+}

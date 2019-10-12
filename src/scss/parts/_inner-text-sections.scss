@@ -12,6 +12,11 @@
   .text-content-cont {
     padding: 3rem 0 0rem;
 
+    &--less-width {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
     p {
       color: $ngrey;
       font-size: 1.6rem;

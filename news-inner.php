@@ -27,38 +27,28 @@
           <h2  class="inner-hero__title">Naujienos pavadinimas</h2>
         </div>
       </div>
-      <div class="text-content-cont">
-        <p><strong>Tiesioginė parama į banko saskaitą. Rekvizitai:</strong></p>
-        <p>VšĮ „Lesė“. Įmonės kodas 300709225</p>
-        <p>IBAN:&nbsp;<strong>LT64 7044 0600 0597 6183</strong>&nbsp;Vilniaus skyrius</p>
-        <p>IBAN:&nbsp;<strong>LT65 7044 0600 0618 6558</strong>&nbsp;Kauno skyriaus sąsk.</p>
-        <p>IBAN:&nbsp;<strong>LT92 7044 0600 0781 2083</strong>&nbsp;Laukinė Lesė</p>
-        <p>SEB bankas, SWIFT kodas CBVILT2X</p>
-        <p><strong>Periodiniai mokėjimai</strong></p>
-        <p>Periodinis mokėjimo pavedimas – nurodymas bankui automatiškai pervesti lėšas kliento nurodytu periodiškumu ir sąlygomis. Tai patogi priemonė klientams, kurie nuolatos turi tam tikru metu sumokėti iš anksto žinomą pinigų sumą ir nori palengvinti kasdieninį finansų tvarkymą.</p>
-        <p>Kaip vykdomi periodiniai mokėjimai?</p>
-        <ul>
-          <li>Kiekvienam mokėjimui sudaroma atskira sutartis, o kiekviena sutartis susiejama su vienu periodiniu mokėjimu, atliekamu jūsų nustatytomis sąlygomis;</li>
-          <li>Bankas jūsų nurodytu periodiškumu automatiškai perves reikiamą sumą iš jūsų banko sąskaitos sutartyje numatytomis sąlygomis. Pasirašius sutartį banke, periodiniai mokėjimai gali būti pradėti jau tą pačią dieną;</li>
-          <li>Mokėjimai atliekami sutarčių sudarymo eilės tvarka, pradedant nuo anksčiausiai sudarytos sutarties;</li>
-          <li>Atėjus mokėjimo dienai, bankas patikrina jūsų banko sąskaitą. Jei lėšų pakanka, pavedimas bus atliktas. Jei mokėjimo dieną sąskaitoje nepakanka lėšų, bankas nuolat tikrins jūsų banko sąskaitą ir, atsiradus reikiamai sumai, atliks mokėjimą;</li>
-          <li>Periodiškai galima atlikti vietinius ir tarptautinius mokėjimus;</li>
-          <li>Prireikus, visuomet galima pakeisti sutartyje nurodytas periodinio mokėjimo sąlygas arba nutraukti mokėjimus.</li>
-        </ul>
-        <p>Mokėjimų periodiškumas gali būti:</p>
-        <ul>
-          <li>nurodant metų mėnesius (kas mėnesį, kas antrą mėnesį, kas ketvirtį, nurodant tam tikrus mėnesius);</li>
-          <li>nurodant mėnesio dieną (kas dieną, nurodant tam tikras mėnesio dienas);</li>
-          <li>nurodant mėnesio savaites (kas savaitę, kiekvieną savaitės dieną, nurodant tam tikras savaitės dienas).</li>
-        </ul>
-        <p><strong>Parama per PayPal sistemą</strong></p>
-        <p>Mus paremti taip pat galite per „PayPal“ mokėjimo sistemą, kuri leidžia kreditinės kortelės tarptautinius pavedimus atlikti nemokamai. „Lesei“, kaip labdaringai organizacijai, taikomi sumažinti pavedimų administravimo mokesčiai (~3%).</p>
-        <p><a href="http://google.lt/">Aukoti per PayPal</a></p>
+      <div class="text-content-cont text-content-cont--less-width">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
       </div>
     </div>
   </section>
-  <section class="share">
-
+  <section class="share section">
+    <div class="container">
+        <a href="#" class="share-button printPage" target="_blank">
+          <svg enable-background="new 0 0 482.5 482.5" version="1.1" viewBox="0 0 482.5 482.5" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="m399.25 98.9h-12.4v-27.6c0-39.3-32-71.3-71.3-71.3h-149.7c-39.3 0-71.3 32-71.3 71.3v27.6h-11.3c-39.3 0-71.3 32-71.3 71.3v115c0 39.3 32 71.3 71.3 71.3h11.2v90.4c0 19.6 16 35.6 35.6 35.6h221.1c19.6 0 35.6-16 35.6-35.6v-90.4h12.5c39.3 0 71.3-32 71.3-71.3v-115c0-39.3-32-71.3-71.3-71.3zm-277.8-27.6c0-24.4 19.9-44.3 44.3-44.3h149.6c24.4 0 44.3 19.9 44.3 44.3v27.6h-238.2v-27.6zm238.3 375.8c0 4.7-3.9 8.6-8.6 8.6h-221.1c-4.7 0-8.6-3.9-8.6-8.6v-149.1h238.3v149.1zm83.8-161.8c0 24.4-19.9 44.3-44.3 44.3h-12.4v-31.6h17.8c7.5 0 13.5-6 13.5-13.5s-6-13.5-13.5-13.5h-330c-7.5 0-13.5 6-13.5 13.5s6 13.5 13.5 13.5h19.9v31.6h-11.3c-24.4 0-44.3-19.9-44.3-44.3v-115c0-24.4 19.9-44.3 44.3-44.3h316c24.4 0 44.3 19.9 44.3 44.3v115z"/><path d="m154.15 364.4h171.9c7.5 0 13.5-6 13.5-13.5s-6-13.5-13.5-13.5h-171.9c-7.5 0-13.5 6-13.5 13.5s6.1 13.5 13.5 13.5z"/><path d="m327.15 392.6h-172c-7.5 0-13.5 6-13.5 13.5s6 13.5 13.5 13.5h171.9c7.5 0 13.5-6 13.5-13.5s-6-13.5-13.4-13.5z"/><path d="m398.95 151.9h-27.4c-7.5 0-13.5 6-13.5 13.5s6 13.5 13.5 13.5h27.4c7.5 0 13.5-6 13.5-13.5s-6-13.5-13.5-13.5z"/></svg>
+          Print this page
+        </a>
+        <a href="#" class="share-button facebook" target="_blank">
+          <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
+          Share on Facebook
+        </a>
+    </div>
   </section>
 </main>
 <?php include './partials/footer.php'; ?>
