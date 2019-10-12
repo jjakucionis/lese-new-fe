@@ -52,8 +52,20 @@
     line-height: 2rem;
   }
 
+  &__icon {
+    position: absolute;
+    left: 1.1rem;
+    top: .7rem;
+
+    svg {
+      width: 2rem;
+      height: auto;
+      fill: $orange;
+    }
+  }
+
   &--hasIcon {
-    padding: .5em 1em .5em 3em;
+    padding: .5em .7em .5em 2em;
     position: relative;
 
     &--last {
@@ -65,17 +77,6 @@
       svg {
         fill: $white;
       }
-    }
-  }
-
-  &__icon {
-    position: absolute;
-    left: 1.7rem;
-    top: .7rem;
-
-    svg {
-      width: 2rem;
-      height: auto;
     }
   }
 
