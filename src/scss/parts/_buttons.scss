@@ -43,15 +43,6 @@
     box-shadow: 2px 3px 7px 0px #928f8f;
   }
 
-  &--xl {
-    text-transform: uppercase;
-    font-size: 1.8rem;
-    padding: .5em 1em;
-    border-radius: .5em;
-    letter-spacing: .1rem;
-    line-height: 2rem;
-  }
-
   &__icon {
     position: absolute;
     left: 1.1rem;
@@ -87,6 +78,20 @@
     letter-spacing: .07em;
     text-transform: uppercase;
     display: inline-block;
+  }
+
+  &--xl {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: .5em 1em;
+    border-radius: .5em;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+  }
+
+  &--sm {
+    padding: .5em 2em;
+    font-size: 1.4rem;
   }
 
 }

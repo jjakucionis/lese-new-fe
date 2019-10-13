@@ -1,3 +1,125 @@
+.animalCard {
+  margin-top: 30px;
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  &__title {
+    font-family: $font2;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.5em;
+  }
+
+  &__subtitle {
+    font-family: $font;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5em;
+    color: $ngrey;
+  }
+
+
+  &__body {
+    display: flex;
+  }
+}
+
+.ageBlock {
+  display: flex;
+  margin-top: 1em;
+
+  &__table {
+    margin-left: 4rem;
+  }
+
+  &__title {
+    font-family: $font;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: .5em;
+  }
+
+  &__subtitle {
+    font-family: $font;
+    font-size: 1.4rem;
+    padding: .5em 1em;
+    text-align: center;
+  }
+
+  &__time {
+    font-family: $font;
+    font-size: 1.8rem;
+    padding: .5em 1em;
+    font-weight: 700;
+    background-color: $orange;
+    color: $white;
+    text-align: center;
+  }
+
+}
+
+.imgGallery {
+  margin-right: 30px;
+  width: 352px;
+}
+
+.cardContent {
+  width: calc(100% - 383px - 230px);
+}
+
+.sidebar {
+  width: 230px;
+
+  &Block {
+    border: 2px solid rgba($color: $orange, $alpha: .6);
+    border-radius: 5px;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    color: $brown;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-bottom: .5em;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    color: $ngrey;
+    line-height: 1.5em;
+    margin-bottom: .5em;
+  }
+
+  &__link {
+    font-size: 1.4rem;
+    color: $ngrey;
+    line-height: 1.5em;
+    margin-bottom: .5em;
+    display: block;
+  }
+
+  &__icon {
+    margin-right: 4px;
+
+    svg {
+      height: 14px;
+      fill: $orange;
+      stroke: $orange;
+    }
+  }
+
+}
+
+
+
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
