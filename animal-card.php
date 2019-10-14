@@ -68,23 +68,37 @@
       <div class="animalCard__body">
         <div class="imgGallery">
           <div class="main-image">
-            <img src="./assets/images/profile.jpg" alt="">
+            <a href="./assets/images/animal5.jpg" data-lightbox="Rudis" data-title="alt tekstas"><img src="./assets/images/animal5.jpg" alt=""></a>
           </div>
-
-
+          <div class="secondaryImages">
+            <div class="secondaryImages__wrap">
+              <a href="./assets/images/animal4.jpg" data-lightbox="Rudis" data-title="alt tekstas"><img class="secondaryImages__image" src="./assets/images/animal4.jpg" alt=""></a>
+            </div>
+            <div class="secondaryImages__wrap">
+              <a href="./assets/images/animal5.jpg" data-lightbox="Rudis" data-title="alt tekstas"><img class="secondaryImages__image" src="./assets/images/animal5.jpg" alt=""></a>
+            </div>
+            <div class="secondaryImages__wrap">
+              <a href="./assets/images/animal4.jpg" data-lightbox="Rudis" data-title="alt tekstas"><img class="secondaryImages__image" src="./assets/images/animal4.jpg" alt=""></a>
+            </div>          
+          </div>
         </div>
         <div class="cardContent">
           <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'tab-info')">Informacija</button>
+            <button class="tablinks active" onclick="openCity(event, 'tab-info')">Informacija</button>
             <button class="tablinks" onclick="openCity(event, 'tab-details')">Aprašymas</button>
           </div>
-          <div id="tab-info" class="tabcontent">
-            <h3>Informacija</h3>
+          <div id="tab-info" class="tabcontent" style="display: block;">
+            <h3><strong>Informacija</strong></h3>
             <p>London is the capital city of England.</p>
+            <ul>
+              <li>list one</li>
+              <li>list duo</li>
+              <li>list tre</li>
+              <li>list qutre</li>
+            </ul>
           </div>
           <div id="tab-details" class="tabcontent">
-            <h3>Aprašymas</h3>
-            <p>Paris is the capital of France.</p>
+            <p>Paris is the capital of France.Paris is the capital of France. Paris is the capital of France.</p>
           </div>
         </div>
         <aside class="sidebar">

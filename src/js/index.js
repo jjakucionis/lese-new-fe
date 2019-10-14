@@ -1,5 +1,6 @@
 import '../scss/style.scss';
 import Swiper from '../../node_modules/swiper';
+import lightbox from '../../node_modules/lightbox2';
 
 import $ from 'jquery';
 window.jQuery = $;
@@ -51,6 +52,10 @@ $(document).ready(function(){
       disableOnInteraction: false,
     },
   });
+
+  lightbox.option({
+    'albumLabel': ""
+  })
 
 
 });
