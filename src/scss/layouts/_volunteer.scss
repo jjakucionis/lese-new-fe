@@ -1,0 +1,38 @@
+.volunteer {
+
+  &__inner {
+    padding-top: 140px;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  &-block {
+    width: 18%;
+    min-width: 150px;
+    margin: 0% 2% 2% 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid $orange;
+
+    &__image {
+      height: 200px;
+      width: 100%;
+      @include bgCover();
+      border-radius: 5px;
+      margin-bottom: 1em;
+    }
+
+    &__position {
+      font-size: 1.8rem;
+      color: $brown;
+      margin-bottom: 1.5rem;
+
+      &--bolded {
+        font-weight: 700;
+      }
+    }
+  }
+}
