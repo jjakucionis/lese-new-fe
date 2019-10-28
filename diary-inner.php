@@ -6,7 +6,7 @@
       <div class="flexwrap">
         <div class="breadcrumbs">
           <a class="btn__breadcrumb" href="">Lesė</a>
-          <a class="btn__breadcrumb" href="">Globotiniai</a>
+          <a class="btn__breadcrumb" href="">Gyvūnų dienoraštis</a>
           <a class="btn__breadcrumb" href="">Rudis</a>
         </div>
         <div class="go-back noMob">
@@ -19,50 +19,18 @@
       </div>
     </div>
   </section>
-  <section class="section animalCard">
+  <section class="section animalCard diary-inner">
     <div class="container">
       <div class="animalCard__head">
         <div class="animalCard__titleWrap">
           <h3 class="animalCard__title">Rudis</h3>
-          <p class="animalCard__subtitle">Some text</p>
-        </div>
-        <div class="ageBlock">
-          <table class="ageBlock__table">
-            <thead>
-              <tr>
-                <th colspan="3" class="ageBlock__title">Prieglaudoje esu:</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="ageBlock__subtitle">Metai:</td>
-                <td class="ageBlock__subtitle">Mėnesiai:</td>
-                <td class="ageBlock__subtitle">Dienos:</td>
-              </tr>
-              <tr>
-                <td class="ageBlock__time">0</td>
-                <td class="ageBlock__time">4</td>
-                <td class="ageBlock__time">3</td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="ageBlock__table">
-              <thead>
-                <tr>
-                  <th colspan="2" class="ageBlock__title">Man jau:</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="ageBlock__subtitle">Metai:</td>
-                  <td class="ageBlock__subtitle">Mėnesiai:</td>
-                </tr>
-                <tr>
-                  <td class="ageBlock__time">0</td>
-                  <td class="ageBlock__time">7</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="received-help">
+            <p class="received-help__text">Sulaukė pagalbos
+              <span class="received-help__icon">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path style="fill:#C3E678;" d="M256,512C114.844,512,0,397.156,0,256S114.844,0,256,0s256,114.844,256,256S397.156,512,256,512z"/><path style="fill:#A5D76E;" d="M375.467,426.667c-141.156,0-256-114.844-256-256c0-59.087,20.318-113.41,54.071-156.783 C72.768,48.311,0,143.72,0,256c0,141.156,114.844,256,256,256c82.069,0,155.049-38.974,201.929-99.217 C432.012,421.638,404.342,426.667,375.467,426.667z"/><path style="fill:#FFFFFF;" d="M203.034,388.414c-4.518,0-9.038-1.725-12.483-5.173L84.62,277.31 c-6.897-6.892-6.897-18.073,0-24.966c6.888-6.897,18.078-6.897,24.966,0l93.449,93.444l181.724-181.72 c6.888-6.897,18.078-6.897,24.966,0c6.897,6.892,6.897,18.073,0,24.966L215.517,383.241 C212.073,386.689,207.552,388.414,203.034,388.414z"/></svg>
+              </span>
+            </p>
+          </div>
         </div>
       </div>
       <div class="animalCard__body">
@@ -83,10 +51,6 @@
           </div>
         </div>
         <div class="cardContent">
-          <div class="tab">
-            <button class="tablinks active" onclick="openCity(event, 'tab-info')">Informacija</button>
-            <button class="tablinks" onclick="openCity(event, 'tab-details')">Aprašymas</button>
-          </div>
           <div id="tab-info" class="tabcontent" style="display: block;">
             <h3><strong>Informacija</strong></h3>
             <p>London is the capital city of England.</p>
@@ -139,28 +103,6 @@
         </a>
     </div>
   </section>
-  <script>
-    function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-  </script>
 </main>
 <?php include './partials/footer.php'; ?>
 <?php include './partials/foot.php'; ?>

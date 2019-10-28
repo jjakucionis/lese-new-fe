@@ -3,8 +3,16 @@
   justify-content: space-between;
   margin-bottom: 40px;
 
+  @media screen and (max-width: $md) {
+    flex-wrap: wrap;
+  }
+
   &__group {
     position: relative;
+
+    @media screen and (max-width: $md) {
+      margin-bottom: 15px;
+    }
 
     &::after {
       position: absolute;
@@ -31,6 +39,10 @@
     width: 160px;
     color: $brown;
     font-family: $font;
+
+    @media screen and (max-width: $md) {
+      width: 288px;
+    }
   }
 
   &__btn {

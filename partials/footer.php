@@ -1,6 +1,6 @@
 <footer class="footer">
   <div class="footer__container container">
-    <div class="footer-block footer-block__logo">
+    <div class="footer-block footer-block__logo noMob">
       <img src="./assets/images/lese_logo_baltas.png" alt="">
     </div>
     <div class="footer-block footer-block__req">
@@ -14,7 +14,7 @@
       </p>
 
     </div>
-    <div class="footer-block footer-block__menu">
+    <div class="footer-block footer-block__menu noMob">
       <h4 class="footer-block__title">Menu</h4>
       <ul class="footer-block__menu">
         <li class="footer-block__item"><a class="footer-block__link" href="#">Titulinis</a></li>
@@ -34,7 +34,6 @@
       <div class="social">
         <a href="#" class="social__link" target="_blank"><img src="./src/img/fb.png" alt="Lesė facebook"></a>
         <a href="#" class="social__link" target="_blank"><img src="./src/img/ig.png" alt="Lesė instagram"></a>
-        <a href="#" class="social__link" target="_blank"><img src="./src/img/tw.png" alt="Lesė twitter"></a>
       </div>
     </div>
   </div>

@@ -78,6 +78,10 @@
     letter-spacing: .07em;
     text-transform: uppercase;
     display: inline-block;
+
+    @media screen and (max-width: $md) {
+      padding: 1em 2em;
+    }
   }
 
   &--xl {

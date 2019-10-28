@@ -2,6 +2,10 @@
 
   &__inner {
     padding-top: 140px;
+
+    @media screen and (max-width: $md) {
+      padding-top: 45px;
+    }
   }
 
   &-list {
@@ -16,6 +20,11 @@
     margin: 0% 2% 2% 0;
     box-sizing: border-box;
     border-bottom: 1px solid $orange;
+
+    @media screen and (max-width: $sm) {
+      width: 48%;
+      margin: 3% 1%;
+    }
 
     &__image {
       height: 200px;

@@ -20,6 +20,10 @@ body {
   width: 100%;
   padding: 0 50px;
   margin: 0 auto;
+
+  @media screen and (max-width: $md) {
+    padding: 0 5%;
+  }
 }
 
 .section {
@@ -58,4 +62,16 @@ body {
 
 .align-center {
   text-align: center;
+}
+
+.noMob {
+  @media screen and (max-width: $md) {
+    display: none !important;
+  }
+}
+
+.onlyMob {
+  @media screen and (min-width: $md + 1px) {
+    display: none !important;
+  }
 }

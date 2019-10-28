@@ -2,6 +2,10 @@
 
   &--padding {
     padding-top: 135px;
+
+    @media screen and (max-width: $md) {
+      padding-top: 65px;
+    }
   }
 
   .flexwrap {

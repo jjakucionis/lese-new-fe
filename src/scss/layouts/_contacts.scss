@@ -2,6 +2,10 @@
 
   &__inner {
     padding-top: 140px;
+
+    @media screen and (max-width: $md) {
+      padding-top: 45px;
+    }
   }
 
   &-list {
@@ -14,6 +18,11 @@
     width: 30%;
     margin: 0% 3% 3% 0;
     padding: 0rem 2rem;
+
+    @media screen and (max-width: $md) {
+      width: 100%;
+      border-bottom: 1px solid $orange;
+    }
 
     &__head {
       color: $brown;
