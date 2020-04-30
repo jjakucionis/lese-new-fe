@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "lightbox2": "^2.11.1",
     "slick-slider": "^1.8.2",
     "swiper": "^5.0.3"
